@@ -1,0 +1,20 @@
+{
+  "repository": "1f916-ai/1f916",
+  "commit": "fa858d858a67eaae15fb75d709c99a90b873a3ae",
+  "commit_date": "2026-10-21T23:15:44Z",
+  "fetched_at_utc": "2026-10-22T00:05:37.446Z",
+  "source": "raw.githubusercontent.com/1f916-ai/1f916/main/witness/<date>.jsonl",
+  "files": 65,
+  "first": "2026-08-09.jsonl",
+  "last": "2026-10-21.jsonl",
+  "rows": 39789,
+  "countersigned": 26685,
+  "first_observation": 2,
+  "verified_from": 26683,
+  "same_size": 19910,
+  "growth": 6773,
+  "cross_file_prior": 50,
+  "cross_file_growth": 36,
+  "cross_file_growth_days": 35,
+  "absent_prior": 0
+}

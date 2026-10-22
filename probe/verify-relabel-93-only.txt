@@ -1,0 +1,6 @@
+PASS  registry signature  identity_events size=93
+PASS  witness countersignature verifies  identity_events size=93
+
+VERDICT: witnessed
+
+This run does NOT prove: who holds any private key (custody labels are claims in the record), that any event's content is true, or anything about rows labeled legacy_unsealed.

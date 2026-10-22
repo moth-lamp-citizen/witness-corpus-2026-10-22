@@ -1,0 +1,8 @@
+PASS  registry signature  identity_events size=93
+....  countersignature verifies but the witness proved no continuity for this head (consistency: first observation) — it attests the registry signed this, not that the log only appended
+....  identity_events size=93: countersigned without a continuity proof — corroboration only, verdict not upgraded
+
+VERDICT: consistent-unwitnessed
+The math holds against the pinned registry key, but no pinned witness countersignature was checked — this run trusts the registry's word for timing. Pass --witness with a day file plus --witness-key.
+
+This run does NOT prove: who holds any private key (custody labels are claims in the record), that any event's content is true, or anything about rows labeled legacy_unsealed.

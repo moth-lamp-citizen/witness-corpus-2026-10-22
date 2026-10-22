@@ -1,0 +1,595 @@
+{
+  "dir": "sources/witness",
+  "files": 65,
+  "first": "2026-08-09.jsonl",
+  "last": "2026-10-21.jsonl",
+  "rows": 39789,
+  "headRows": 13165,
+  "countersigned": 26685,
+  "firstObservation": [
+    {
+      "file": "2026-08-12.jsonl",
+      "at": "2026-08-12T12:40:16.267Z",
+      "log": "identity_events",
+      "tree_size": 93,
+      "status": "countersigned"
+    },
+    {
+      "file": "2026-08-12.jsonl",
+      "at": "2026-08-12T12:40:16.267Z",
+      "log": "ledger",
+      "tree_size": 5,
+      "status": "countersigned"
+    }
+  ],
+  "fromRows": 26683,
+  "growth": 6773,
+  "sameSize": 19910,
+  "sameFilePrior": 26633,
+  "crossFilePrior": 50,
+  "absentPrior": 0,
+  "crossFileDistinctDays": 48,
+  "crossFileRows": [
+    {
+      "file": "2026-08-15.jsonl",
+      "at": "2026-08-15T00:00:18.826Z",
+      "log": "identity_events",
+      "tree_size": 604,
+      "from": 604,
+      "priorIn": [
+        "2026-08-14.jsonl"
+      ]
+    },
+    {
+      "file": "2026-08-16.jsonl",
+      "at": "2026-08-16T00:00:17.516Z",
+      "log": "identity_events",
+      "tree_size": 770,
+      "from": 770,
+      "priorIn": [
+        "2026-08-15.jsonl"
+      ]
+    },
+    {
+      "file": "2026-08-18.jsonl",
+      "at": "2026-08-18T03:11:40.940Z",
+      "log": "identity_events",
+      "tree_size": 1230,
+      "from": 1204,
+      "priorIn": [
+        "2026-08-17.jsonl"
+      ]
+    },
+    {
+      "file": "2026-08-19.jsonl",
+      "at": "2026-08-19T03:14:14.384Z",
+      "log": "identity_events",
+      "tree_size": 1450,
+      "from": 1425,
+      "priorIn": [
+        "2026-08-18.jsonl"
+      ]
+    },
+    {
+      "file": "2026-08-20.jsonl",
+      "at": "2026-08-20T01:33:01.511Z",
+      "log": "identity_events",
+      "tree_size": 1667,
+      "from": 1654,
+      "priorIn": [
+        "2026-08-19.jsonl"
+      ]
+    },
+    {
+      "file": "2026-08-22.jsonl",
+      "at": "2026-08-22T00:00:56.389Z",
+      "log": "identity_events",
+      "tree_size": 2064,
+      "from": 2061,
+      "priorIn": [
+        "2026-08-21.jsonl"
+      ]
+    },
+    {
+      "file": "2026-08-23.jsonl",
+      "at": "2026-08-23T00:00:50.401Z",
+      "log": "identity_events",
+      "tree_size": 2759,
+      "from": 2757,
+      "priorIn": [
+        "2026-08-22.jsonl"
+      ]
+    },
+    {
+      "file": "2026-08-25.jsonl",
+      "at": "2026-08-25T00:00:52.712Z",
+      "log": "identity_events",
+      "tree_size": 3583,
+      "from": 3581,
+      "priorIn": [
+        "2026-08-24.jsonl"
+      ]
+    },
+    {
+      "file": "2026-08-27.jsonl",
+      "at": "2026-08-27T00:00:51.850Z",
+      "log": "identity_events",
+      "tree_size": 4352,
+      "from": 4352,
+      "priorIn": [
+        "2026-08-26.jsonl"
+      ]
+    },
+    {
+      "file": "2026-08-28.jsonl",
+      "at": "2026-08-28T00:00:35.144Z",
+      "log": "identity_events",
+      "tree_size": 4642,
+      "from": 4642,
+      "priorIn": [
+        "2026-08-27.jsonl"
+      ]
+    },
+    {
+      "file": "2026-08-29.jsonl",
+      "at": "2026-08-29T00:01:12.113Z",
+      "log": "identity_events",
+      "tree_size": 4863,
+      "from": 4862,
+      "priorIn": [
+        "2026-08-28.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-03.jsonl",
+      "at": "2026-09-03T00:01:00.198Z",
+      "log": "identity_events",
+      "tree_size": 6262,
+      "from": 6262,
+      "priorIn": [
+        "2026-09-02.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-05.jsonl",
+      "at": "2026-09-05T00:00:25.301Z",
+      "log": "identity_events",
+      "tree_size": 6977,
+      "from": 6975,
+      "priorIn": [
+        "2026-09-04.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-06.jsonl",
+      "at": "2026-09-06T00:00:34.588Z",
+      "log": "identity_events",
+      "tree_size": 7431,
+      "from": 7431,
+      "priorIn": [
+        "2026-09-05.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-07.jsonl",
+      "at": "2026-09-07T00:00:43.963Z",
+      "log": "identity_events",
+      "tree_size": 7793,
+      "from": 7792,
+      "priorIn": [
+        "2026-09-06.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-09.jsonl",
+      "at": "2026-09-09T00:01:21.452Z",
+      "log": "identity_events",
+      "tree_size": 9084,
+      "from": 9084,
+      "priorIn": [
+        "2026-09-08.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-10.jsonl",
+      "at": "2026-09-10T00:01:10.732Z",
+      "log": "identity_events",
+      "tree_size": 10147,
+      "from": 10145,
+      "priorIn": [
+        "2026-09-09.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-11.jsonl",
+      "at": "2026-09-11T00:00:38.893Z",
+      "log": "identity_events",
+      "tree_size": 11133,
+      "from": 11133,
+      "priorIn": [
+        "2026-09-10.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-12.jsonl",
+      "at": "2026-09-12T00:00:39.251Z",
+      "log": "identity_events",
+      "tree_size": 11906,
+      "from": 11901,
+      "priorIn": [
+        "2026-09-11.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-13.jsonl",
+      "at": "2026-09-13T00:37:21.124Z",
+      "log": "identity_events",
+      "tree_size": 12985,
+      "from": 12853,
+      "priorIn": [
+        "2026-09-12.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-13.jsonl",
+      "at": "2026-09-13T00:37:32.503Z",
+      "log": "identity_events",
+      "tree_size": 12985,
+      "from": 12853,
+      "priorIn": [
+        "2026-09-12.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-14.jsonl",
+      "at": "2026-09-14T00:00:54.046Z",
+      "log": "identity_events",
+      "tree_size": 13741,
+      "from": 13738,
+      "priorIn": [
+        "2026-09-13.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-15.jsonl",
+      "at": "2026-09-15T00:00:59.304Z",
+      "log": "identity_events",
+      "tree_size": 14553,
+      "from": 14553,
+      "priorIn": [
+        "2026-09-14.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-16.jsonl",
+      "at": "2026-09-16T00:01:16.925Z",
+      "log": "identity_events",
+      "tree_size": 15373,
+      "from": 15372,
+      "priorIn": [
+        "2026-09-15.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-17.jsonl",
+      "at": "2026-09-17T00:01:21.626Z",
+      "log": "identity_events",
+      "tree_size": 16099,
+      "from": 16099,
+      "priorIn": [
+        "2026-09-16.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-18.jsonl",
+      "at": "2026-09-18T00:01:04.240Z",
+      "log": "identity_events",
+      "tree_size": 16617,
+      "from": 16616,
+      "priorIn": [
+        "2026-09-17.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-19.jsonl",
+      "at": "2026-09-19T00:01:07.822Z",
+      "log": "identity_events",
+      "tree_size": 17024,
+      "from": 17024,
+      "priorIn": [
+        "2026-09-18.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-20.jsonl",
+      "at": "2026-09-20T00:00:29.195Z",
+      "log": "identity_events",
+      "tree_size": 17905,
+      "from": 17892,
+      "priorIn": [
+        "2026-09-19.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-21.jsonl",
+      "at": "2026-09-21T00:00:37.193Z",
+      "log": "identity_events",
+      "tree_size": 18588,
+      "from": 18587,
+      "priorIn": [
+        "2026-09-20.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-22.jsonl",
+      "at": "2026-09-22T00:01:46.372Z",
+      "log": "identity_events",
+      "tree_size": 18942,
+      "from": 18940,
+      "priorIn": [
+        "2026-09-21.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-23.jsonl",
+      "at": "2026-09-23T00:00:54.727Z",
+      "log": "identity_events",
+      "tree_size": 19345,
+      "from": 19345,
+      "priorIn": [
+        "2026-09-22.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-24.jsonl",
+      "at": "2026-09-24T00:00:34.052Z",
+      "log": "identity_events",
+      "tree_size": 19683,
+      "from": 19682,
+      "priorIn": [
+        "2026-09-23.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-25.jsonl",
+      "at": "2026-09-25T00:02:48.477Z",
+      "log": "identity_events",
+      "tree_size": 20015,
+      "from": 20013,
+      "priorIn": [
+        "2026-09-24.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-26.jsonl",
+      "at": "2026-09-26T00:01:48.632Z",
+      "log": "identity_events",
+      "tree_size": 20329,
+      "from": 20326,
+      "priorIn": [
+        "2026-09-25.jsonl"
+      ]
+    },
+    {
+      "file": "2026-09-27.jsonl",
+      "at": "2026-09-27T00:00:58.220Z",
+      "log": "identity_events",
+      "tree_size": 20585,
+      "from": 20585,
+      "priorIn": [
+        "2026-09-26.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-08.jsonl",
+      "at": "2026-10-08T19:52:38.406Z",
+      "log": "identity_events",
+      "tree_size": 24640,
+      "from": 21138,
+      "priorIn": [
+        "2026-09-28.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-08.jsonl",
+      "at": "2026-10-08T19:52:38.406Z",
+      "log": "ledger",
+      "tree_size": 11,
+      "from": 11,
+      "priorIn": [
+        "2026-09-02.jsonl",
+        "2026-09-03.jsonl",
+        "2026-09-04.jsonl",
+        "2026-09-05.jsonl",
+        "2026-09-06.jsonl",
+        "2026-09-07.jsonl",
+        "2026-09-08.jsonl",
+        "2026-09-09.jsonl",
+        "2026-09-10.jsonl",
+        "2026-09-11.jsonl",
+        "2026-09-12.jsonl",
+        "2026-09-13.jsonl",
+        "2026-09-14.jsonl",
+        "2026-09-15.jsonl",
+        "2026-09-16.jsonl",
+        "2026-09-17.jsonl",
+        "2026-09-18.jsonl",
+        "2026-09-19.jsonl",
+        "2026-09-20.jsonl",
+        "2026-09-21.jsonl",
+        "2026-09-22.jsonl",
+        "2026-09-23.jsonl",
+        "2026-09-24.jsonl",
+        "2026-09-25.jsonl",
+        "2026-09-26.jsonl",
+        "2026-09-27.jsonl",
+        "2026-09-28.jsonl",
+        "2026-10-09.jsonl",
+        "2026-10-10.jsonl",
+        "2026-10-11.jsonl",
+        "2026-10-12.jsonl",
+        "2026-10-13.jsonl",
+        "2026-10-14.jsonl",
+        "2026-10-15.jsonl",
+        "2026-10-16.jsonl",
+        "2026-10-17.jsonl",
+        "2026-10-18.jsonl",
+        "2026-10-19.jsonl",
+        "2026-10-20.jsonl",
+        "2026-10-21.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-09.jsonl",
+      "at": "2026-10-09T00:17:32.760Z",
+      "log": "identity_events",
+      "tree_size": 24698,
+      "from": 24640,
+      "priorIn": [
+        "2026-10-08.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-10.jsonl",
+      "at": "2026-10-10T00:44:22.390Z",
+      "log": "identity_events",
+      "tree_size": 25027,
+      "from": 24971,
+      "priorIn": [
+        "2026-10-09.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-11.jsonl",
+      "at": "2026-10-11T01:48:52.228Z",
+      "log": "identity_events",
+      "tree_size": 25356,
+      "from": 25314,
+      "priorIn": [
+        "2026-10-10.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-12.jsonl",
+      "at": "2026-10-12T00:28:56.692Z",
+      "log": "identity_events",
+      "tree_size": 25927,
+      "from": 25905,
+      "priorIn": [
+        "2026-10-11.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-13.jsonl",
+      "at": "2026-10-13T00:33:49.626Z",
+      "log": "identity_events",
+      "tree_size": 26329,
+      "from": 26275,
+      "priorIn": [
+        "2026-10-12.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-14.jsonl",
+      "at": "2026-10-14T01:10:07.189Z",
+      "log": "identity_events",
+      "tree_size": 26681,
+      "from": 26645,
+      "priorIn": [
+        "2026-10-13.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-15.jsonl",
+      "at": "2026-10-15T01:25:01.073Z",
+      "log": "identity_events",
+      "tree_size": 27033,
+      "from": 26971,
+      "priorIn": [
+        "2026-10-14.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-16.jsonl",
+      "at": "2026-10-16T01:14:57.297Z",
+      "log": "identity_events",
+      "tree_size": 27262,
+      "from": 27229,
+      "priorIn": [
+        "2026-10-15.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-17.jsonl",
+      "at": "2026-10-17T00:36:34.185Z",
+      "log": "identity_events",
+      "tree_size": 27501,
+      "from": 27493,
+      "priorIn": [
+        "2026-10-16.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-18.jsonl",
+      "at": "2026-10-18T00:56:45.652Z",
+      "log": "identity_events",
+      "tree_size": 27763,
+      "from": 27732,
+      "priorIn": [
+        "2026-10-17.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-19.jsonl",
+      "at": "2026-10-19T00:16:16.228Z",
+      "log": "identity_events",
+      "tree_size": 28160,
+      "from": 28147,
+      "priorIn": [
+        "2026-10-18.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-20.jsonl",
+      "at": "2026-10-20T00:16:41.649Z",
+      "log": "identity_events",
+      "tree_size": 28447,
+      "from": 28417,
+      "priorIn": [
+        "2026-10-19.jsonl"
+      ]
+    },
+    {
+      "file": "2026-10-21.jsonl",
+      "at": "2026-10-21T01:43:46.957Z",
+      "log": "identity_events",
+      "tree_size": 28815,
+      "from": 28787,
+      "priorIn": [
+        "2026-10-20.jsonl"
+      ]
+    }
+  ],
+  "byLog": {
+    "identity_events": {
+      "countersigned": 13343,
+      "firstObservation": 1,
+      "from": 13342,
+      "growth": 6769,
+      "sameSize": 6573,
+      "sameFilePrior": 13293,
+      "crossFilePrior": 49,
+      "absentPrior": 0
+    },
+    "ledger": {
+      "countersigned": 13342,
+      "firstObservation": 1,
+      "from": 13341,
+      "growth": 4,
+      "sameSize": 13337,
+      "sameFilePrior": 13340,
+      "crossFilePrior": 1,
+      "absentPrior": 0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+PASS  registry signature  identity_events size=93
+....  countersignature verifies but the witness proved no continuity for this head (consistency: first observation) — it attests the registry signed this, not that the log only appended
+PASS  witness countersignature verifies  identity_events size=93
+
+VERDICT: witnessed
+
+This run does NOT prove: who holds any private key (custody labels are claims in the record), that any event's content is true, or anything about rows labeled legacy_unsealed.

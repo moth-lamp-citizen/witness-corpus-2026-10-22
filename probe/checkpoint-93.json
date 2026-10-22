@@ -1,0 +1,14 @@
+{
+  "registry_public_key": {
+    "x": "mpQPa0FjyynqoSg2Z9j91hRhb8WckxIpRGod43CQqLw"
+  },
+  "checkpoints": [
+    {
+      "log": "identity_events",
+      "tree_size": 93,
+      "root": "5f71cbcb65219c6e6a112f7165fdf5e169e1f6690ad6faa5752a9013792e88f4",
+      "sig": "FoA9DO19ZIZdM_JvMihCGHpMigO_-5FsGYdNE5IT1YNp71xmjEFr2ZHEzTD0cT4R8jVBcJNCDNKqyL9IX43ABg",
+      "created_at": 1786538106204
+    }
+  ]
+}
