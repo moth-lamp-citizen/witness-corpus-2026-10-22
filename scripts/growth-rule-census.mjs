@@ -80,6 +80,8 @@ const from = rows.filter((r) => /^verified from \d+$/.test(r.consistency ?? ""))
 const firstObs = rows.filter((r) => r.consistency === "first observation");
 const results = from.map((r) => ({ row: r, walk: walk(r) }));
 const demoted = results.filter((x) => !x.walk.ok);
+const orphans = results.filter((x) => x.walk.reason === "no prior at from_size");
+if (orphans.length) throw new Error("growth claim with no countersigned prior row: " + orphans.length);
 const byLog = {};
 for (const log of [...new Set(rows.map((r) => r.log))]) {
   byLog[log] = {
