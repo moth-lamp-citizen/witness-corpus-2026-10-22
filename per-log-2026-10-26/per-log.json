@@ -1,0 +1,408 @@
+{
+  "source": {
+    "repo": "1f916-ai/1f916",
+    "commit": "fa858d858a67eaae15fb75d709c99a90b873a3ae",
+    "files": 65,
+    "countersigned": 26685,
+    "fromClaims": 26683
+  },
+  "aggregate": {
+    "demoted": 1611,
+    "fromClaims": 26683,
+    "demotedPct": 6.04
+  },
+  "byLog": {
+    "identity_events": {
+      "countersigned": 13343,
+      "fromClaims": 13342,
+      "demoted": 22,
+      "demotedPct": 0.1649,
+      "firstObservationSize": 93,
+      "linesAtFirstObservationSize": 23,
+      "fromClaimsAtFirstObservationSize": 22
+    },
+    "ledger": {
+      "countersigned": 13342,
+      "fromClaims": 13341,
+      "demoted": 1589,
+      "demotedPct": 11.9107,
+      "firstObservationSize": 5,
+      "linesAtFirstObservationSize": 1590,
+      "fromClaimsAtFirstObservationSize": 1589
+    }
+  },
+  "signatureReuse": {
+    "ledger": [
+      {
+        "tree_size": 5,
+        "rows": 1590,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-12T12:40:16.267Z",
+        "last_at": "2026-08-18T14:07:04.083Z",
+        "distinct_days": 7,
+        "consistency": {
+          "first observation": 1,
+          "verified from 5": 1589
+        }
+      },
+      {
+        "tree_size": 7,
+        "rows": 2150,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-18T15:49:18.116Z",
+        "last_at": "2026-08-27T05:15:57.631Z",
+        "distinct_days": 10,
+        "consistency": {
+          "verified from 5": 1,
+          "verified from 7": 2149
+        }
+      },
+      {
+        "tree_size": 8,
+        "rows": 1840,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-27T05:21:00.302Z",
+        "last_at": "2026-09-02T05:36:14.976Z",
+        "distinct_days": 7,
+        "consistency": {
+          "verified from 7": 1,
+          "verified from 8": 1839
+        }
+      },
+      {
+        "tree_size": 10,
+        "rows": 1,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-09-02T05:41:11.273Z",
+        "last_at": "2026-09-02T05:41:11.273Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 8": 1
+        }
+      },
+      {
+        "tree_size": 11,
+        "rows": 7761,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-09-02T05:46:13.640Z",
+        "last_at": "2026-10-21T23:15:43.098Z",
+        "distinct_days": 41,
+        "consistency": {
+          "verified from 10": 1,
+          "verified from 11": 7760
+        }
+      }
+    ],
+    "identity_events_top_repeated": [
+      {
+        "tree_size": 96,
+        "rows": 29,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-12T15:05:17.001Z",
+        "last_at": "2026-08-12T17:15:16.865Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 94": 1,
+          "verified from 96": 28
+        }
+      },
+      {
+        "tree_size": 93,
+        "rows": 23,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-12T12:40:16.267Z",
+        "last_at": "2026-08-12T14:25:18.283Z",
+        "distinct_days": 1,
+        "consistency": {
+          "first observation": 1,
+          "verified from 93": 22
+        }
+      },
+      {
+        "tree_size": 666,
+        "rows": 18,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-15T08:35:27.142Z",
+        "last_at": "2026-08-15T09:52:57.943Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 664": 1,
+          "verified from 666": 17
+        }
+      },
+      {
+        "tree_size": 117,
+        "rows": 17,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-12T21:35:36.000Z",
+        "last_at": "2026-08-12T22:50:37.329Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 115": 1,
+          "verified from 117": 16
+        }
+      },
+      {
+        "tree_size": 119,
+        "rows": 16,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-12T22:55:38.016Z",
+        "last_at": "2026-08-13T00:15:47.343Z",
+        "distinct_days": 2,
+        "consistency": {
+          "verified from 117": 1,
+          "verified from 119": 15
+        }
+      },
+      {
+        "tree_size": 102,
+        "rows": 15,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-12T17:20:17.322Z",
+        "last_at": "2026-08-12T18:30:16.086Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 96": 1,
+          "verified from 102": 14
+        }
+      },
+      {
+        "tree_size": 107,
+        "rows": 15,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-12T18:55:16.629Z",
+        "last_at": "2026-08-12T20:04:32.614Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 105": 1,
+          "verified from 107": 14
+        }
+      },
+      {
+        "tree_size": 152,
+        "rows": 15,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-13T03:05:48.227Z",
+        "last_at": "2026-08-13T04:15:43.817Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 149": 1,
+          "verified from 152": 14
+        }
+      },
+      {
+        "tree_size": 9413,
+        "rows": 14,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-09-09T09:00:47.530Z",
+        "last_at": "2026-09-09T10:00:49.658Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 9377": 1,
+          "verified from 9413": 13
+        }
+      },
+      {
+        "tree_size": 447,
+        "rows": 13,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-14T00:20:56.856Z",
+        "last_at": "2026-08-14T01:20:57.022Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 446": 1,
+          "verified from 447": 12
+        }
+      },
+      {
+        "tree_size": 519,
+        "rows": 13,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-14T11:30:49.325Z",
+        "last_at": "2026-08-14T12:29:33.183Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 518": 1,
+          "verified from 519": 12
+        }
+      },
+      {
+        "tree_size": 739,
+        "rows": 13,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-15T18:35:17.952Z",
+        "last_at": "2026-08-15T19:30:33.117Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 738": 1,
+          "verified from 739": 12
+        }
+      },
+      {
+        "tree_size": 1015,
+        "rows": 13,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-17T02:30:25.316Z",
+        "last_at": "2026-08-17T03:28:02.384Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 1013": 1,
+          "verified from 1015": 12
+        }
+      },
+      {
+        "tree_size": 1054,
+        "rows": 13,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-17T07:21:27.906Z",
+        "last_at": "2026-08-17T08:16:13.354Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 1053": 1,
+          "verified from 1054": 12
+        }
+      },
+      {
+        "tree_size": 1850,
+        "rows": 13,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-20T20:30:25.783Z",
+        "last_at": "2026-08-20T21:25:48.210Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 1849": 1,
+          "verified from 1850": 12
+        }
+      },
+      {
+        "tree_size": 1851,
+        "rows": 13,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-20T21:30:37.866Z",
+        "last_at": "2026-08-20T22:25:27.890Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 1850": 1,
+          "verified from 1851": 12
+        }
+      },
+      {
+        "tree_size": 352,
+        "rows": 12,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-13T11:56:08.118Z",
+        "last_at": "2026-08-13T12:46:14.718Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 264": 1,
+          "verified from 352": 11
+        }
+      },
+      {
+        "tree_size": 500,
+        "rows": 12,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-14T08:35:49.903Z",
+        "last_at": "2026-08-14T09:30:50.873Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 497": 1,
+          "verified from 500": 11
+        }
+      },
+      {
+        "tree_size": 623,
+        "rows": 12,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-15T02:35:33.468Z",
+        "last_at": "2026-08-15T03:25:35.157Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 622": 1,
+          "verified from 623": 11
+        }
+      },
+      {
+        "tree_size": 776,
+        "rows": 12,
+        "distinct_keys": 1,
+        "distinct_sigs": 1,
+        "distinct_roots": 1,
+        "first_at": "2026-08-16T00:30:31.726Z",
+        "last_at": "2026-08-16T01:25:29.135Z",
+        "distinct_days": 1,
+        "consistency": {
+          "verified from 775": 1,
+          "verified from 776": 11
+        }
+      }
+    ]
+  },
+  "typeStatus": {
+    "countersigned": 26685,
+    "typeRowsAll": 26624,
+    "countersignedWithType": 26623,
+    "countersignedWithoutType": 62,
+    "typeWithoutCountersigned": 1
+  },
+  "refusedConsistency": [
+    {
+      "file": "2026-09-14.jsonl",
+      "at": "2026-09-14T21:55:49.969Z",
+      "log": "ledger",
+      "tree_size": 11,
+      "consistency": "unavailable (TypeError: fetch failed)",
+      "status": "refused-consistency-failure",
+      "has_key": false,
+      "has_sig": false
+    }
+  ]
+}

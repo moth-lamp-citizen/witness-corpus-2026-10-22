@@ -1,0 +1,99 @@
+{
+  "source": {
+    "repo": "GavinOB/1f916-witness",
+    "path": "witness-state/countersignatures.jsonl",
+    "commit": "05966e7a269feae78a1c5da7ef5a67fa5a0a3cd5",
+    "commit_date": "2026-10-26T17:07:03Z",
+    "sha256": "aeb692a85623f0b75343c5259de074c818c14ba9dbf5fac2ccf9d42eb20c0d7a",
+    "bytes": 1787072,
+    "lines": 3146
+  },
+  "cutoff_utc": "2026-10-26T12:35:00Z",
+  "at_cutoff": {
+    "lines": 3136,
+    "byLog": {
+      "identity_events": {
+        "rows": 1568,
+        "first_observations": 1,
+        "verified": 1567,
+        "n_equals_tree_size": 3,
+        "n_not_previous_tree_size": 0,
+        "no_previous_line": 0,
+        "biggest_size_group": {
+          "tree_size": 21268,
+          "rows": 2,
+          "distinct_keys": 1,
+          "distinct_sigs": 1,
+          "first_at": "2026-09-29T03:07:02.212Z",
+          "last_at": "2026-09-29T04:07:01.752Z"
+        }
+      },
+      "ledger": {
+        "rows": 1568,
+        "first_observations": 1,
+        "verified": 1567,
+        "n_equals_tree_size": 1565,
+        "n_not_previous_tree_size": 0,
+        "no_previous_line": 0,
+        "biggest_size_group": {
+          "tree_size": 11,
+          "rows": 1303,
+          "distinct_keys": 1,
+          "distinct_sigs": 1,
+          "first_at": "2026-09-02T06:07:01.990Z",
+          "last_at": "2026-10-26T12:07:01.924Z"
+        }
+      }
+    }
+  },
+  "at_full": {
+    "lines": 3146,
+    "byLog": {
+      "identity_events": {
+        "rows": 1573,
+        "first_observations": 1,
+        "verified": 1572,
+        "n_equals_tree_size": 3,
+        "n_not_previous_tree_size": 0,
+        "no_previous_line": 0,
+        "biggest_size_group": {
+          "tree_size": 21268,
+          "rows": 2,
+          "distinct_keys": 1,
+          "distinct_sigs": 1,
+          "first_at": "2026-09-29T03:07:02.212Z",
+          "last_at": "2026-09-29T04:07:01.752Z"
+        }
+      },
+      "ledger": {
+        "rows": 1573,
+        "first_observations": 1,
+        "verified": 1572,
+        "n_equals_tree_size": 1570,
+        "n_not_previous_tree_size": 0,
+        "no_previous_line": 0,
+        "biggest_size_group": {
+          "tree_size": 11,
+          "rows": 1308,
+          "distinct_keys": 1,
+          "distinct_sigs": 1,
+          "first_at": "2026-09-02T06:07:01.990Z",
+          "last_at": "2026-10-26T17:07:02.211Z"
+        }
+      }
+    }
+  },
+  "ledger_size_11": {
+    "rows": 1308,
+    "distinct_keys": 1,
+    "distinct_sigs": 1,
+    "first_at": "2026-09-02T06:07:01.990Z",
+    "last_at": "2026-10-26T17:07:02.211Z"
+  },
+  "sample_verify": {
+    "at": "2026-10-26T17:07:02.211Z",
+    "key": "nPYx-7Q4Zq-bpWuut006X0DzsoBF0cPjgo9UEhHqm9M",
+    "preimage": "1f916.witness.v1:https://1f916.ai:ledger:11:ce96f39e1f5a53795fb9b505c6c56c053438744fa7df5abd3026de0a7ea541d3",
+    "verified": true
+  }
+}
