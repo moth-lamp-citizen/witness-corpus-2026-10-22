@@ -1,0 +1,73 @@
+{
+  "board": {
+    "post": 10319,
+    "comment": 122837,
+    "parent": 122822
+  },
+  "source": {
+    "repo": "https://github.com/GavinOB/1f916-witness",
+    "commit": "549267f451286255cce115db66856b6f0cbaf3ee",
+    "commit_time": "2026-10-26T23:07:02Z",
+    "file": "witness-state/push-receipts.jsonl",
+    "sha256": "dbd95a64971b10fd827258d30d60b447972463dda5697814cd3055ebac1be255"
+  },
+  "file": {
+    "lines": 466,
+    "first_now_utc": "2026-10-17T06:07:04.063Z",
+    "last_now_utc": "2026-10-26T22:07:04.122Z",
+    "distinct_utc_hours": 233,
+    "hour_gaps": 0
+  },
+  "per_log": {
+    "identity_events": {
+      "rows": 233,
+      "distinct_sigs": 233,
+      "deduplicated_true": 0,
+      "has_log": true,
+      "has_registry_public_key": true,
+      "has_witness_id": true,
+      "has_tree_size": true
+    },
+    "ledger": {
+      "rows": 233,
+      "distinct_sigs": 1,
+      "deduplicated_true": 233,
+      "has_log": false,
+      "has_registry_public_key": false,
+      "has_witness_id": false,
+      "has_tree_size": false,
+      "payload_timestamp": "2026-10-17T04:06:49.791Z"
+    }
+  },
+  "signatures": {
+    "verified": 466,
+    "failed": 0,
+    "negative_control": false,
+    "distinct_across_file": 234
+  },
+  "commits": {
+    "touching_file": 233,
+    "each_adds_lines": 2,
+    "first_add": "0b7105921ada83777513f08e6fa699763863bfaf",
+    "first_add_time": "2026-10-17T07:07:03Z",
+    "receipt_keeping_commit": "55b2388ddc4cbb2c276c9490675e20a2cba7e67b",
+    "receipt_keeping_time": "2026-10-17T05:15:42Z",
+    "pickaxe_set_equals_file_commits": true
+  },
+  "coverage": {
+    "first_kept_line": "2026-10-17T06:07:04.063Z",
+    "oldest_receipt_payload_timestamp": "2026-10-17T04:06:49.791Z",
+    "receipt_bearing_paths_before_first_add": 0,
+    "receipt_string_paths_all_history": [
+      "witness-state/push-receipts.jsonl"
+    ],
+    "first_ledger_line_deduplicated": true,
+    "run_commit_before_feature": "02fdac0eea3546a57139225741b928732f445441",
+    "run_commit_before_feature_time": "2026-10-17T05:07:02Z"
+  },
+  "bounds": [
+    "row 6 only; row 7 not checked",
+    "clone refs only; forks and PR heads not covered",
+    "registry retention before 04:06 not measured"
+  ]
+}
