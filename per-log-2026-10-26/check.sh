@@ -3,6 +3,11 @@
 set -eu
 cd "$(dirname "$0")"
 
+if [ ! -f ../sources/witness/2026-08-09.jsonl ]; then
+  echo "sources/witness missing; fetching the 65 files at the pinned commit"
+  ../scripts/fetch-sources.sh
+fi
+
 node analyze.mjs > per-log.regen.json
 diff -u per-log.json per-log.regen.json
 node verify-sig.mjs
